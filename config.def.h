@@ -70,5 +70,5 @@ static const struct arg args[] = {
 	{ ram_perc, "[ram %s%%] ", NULL },
 	{ cpu_perc, "[cpu %s%% ", NULL },
 	{ temp, "%sC] ", "//sys/devices/platform/coretemp.0/hwmon/hwmon1/temp1_input" },
-	{ datetime, "%s", "%a %d %b %r " },
+	{ datetime, "%s", "%a %b %d %r " },
 };
