@@ -68,6 +68,6 @@ static const struct arg args[] = {
 	{ run_command, "%4s | ", "amixer -M sget Master | awk -F\"[][]\" '/%/ { print $2 }' | head -n1" },
 	{ ram_perc,"ram %s%% | ", NULL },
 	{ cpu_perc,"cpu %s%% ", NULL },
-	{ temp, "%sC |", "//sys/devices/platform/coretemp.0/hwmon/hwmon1/temp1_input" },
+	{ temp, "%sC |", "//sys/devices/platform/coretemp.0/hwmon/hwmon2/temp1_input" },
 	{ datetime, " %s", "%a %b %d %r " },
 };
